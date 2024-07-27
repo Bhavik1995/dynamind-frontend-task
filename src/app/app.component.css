@@ -1,0 +1,33 @@
+.position-relative {
+    position: relative;
+  }
+  
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vertical-text {
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .revenue-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  
